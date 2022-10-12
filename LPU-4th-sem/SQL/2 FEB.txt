@@ -1,0 +1,73 @@
+USE Lab;
+
+
+CREATE TABLE Customer (
+Customer_id VARCHAR(10) PRIMARY KEY,
+First_name VARCHAR(100),
+Last_name VARCHAR(100),
+Country VARCHAR(100),
+Age INTEGER,
+Salary INTEGER,
+Rating INTEGER
+
+);
+
+INSERT INTO Customer
+(Customer_id, First_name, Last_name, Country, Age, Salary,Rating)
+VALUES
+('C-101','Muskan','Sharma','India',18,50000,4),
+('C-102','Tushar','Singh','India',28,45000,3),
+('C-103','Charlotte','Joy','Australia',34,90000,2),
+('C-104','Olivia','Lanister','Denmark',27,80000,3),
+('C-105','Anmol', 'Awasti','India',19,45000,5),
+('C-106','William','Clarke','USA',20,71000,4),
+('C-107','Abdul', 'Khan','India',43,61000,5),
+('C-108','Sidharath','Sharma','UK',29,70000,2),
+('C-109','Aurora','Roseling','Itlay',41,10000,3),
+('C-110','Winston','Harington','Canada',32,60000,4)
+
+
+
+
+SELECT Customer_id as ID, First_Name + ' ' + Last_Name as Full_Name FROM Customer;
+
+SELECT * FROM Customer
+WHERE Country = 'India';
+
+SELECT First_Name + ' ' + Last_Name as Full_Name, Age FROM Customer;
+
+SELECT * FROM Customer
+WHERE Salary < 50000 and Age < 25;
+
+SELECT * FROM Customer
+WHERE Salary < 50000 or Country = 'India';
+
+
+
+SELECT First_Name + ' ' + Last_Name as Full_name, Country FROM Customer
+WHERE Country LIKE 'I%'
+
+SELECT First_Name + ' ' + Last_Name as Full_name, Country FROM Customer
+WHERE Country LIKE 'D_n%'
+
+SELECT First_Name + ' ' + Last_Name as Full_name, Country FROM Customer
+WHERE Country LIKE 'U_%'
+
+
+
+SELECT First_Name + ' ' + Last_Name as Full_name, Country FROM Customer
+WHERE Age BETWEEN 18 and 30;
+
+SELECT First_Name + ' ' + Last_Name as Full_name, Country FROM Customer
+WHERE Rating BETWEEN 2 and 5;
+
+
+
+SELECT First_Name + ' ' + Last_Name as Full_name, Country FROM Customer
+WHERE Country BETWEEN 'A' and 'India' ;
+
+
+
+
+SELECT First_Name + ' ' + Last_Name as Full_name, Country FROM Customer
+WHERE Country NOT BETWEEN 'A' and 'India' ;

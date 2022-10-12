@@ -1,0 +1,20 @@
+create table product(
+p_id int primary key,
+p_name varchar(100),
+price float,
+mfg date,
+exp date,
+qty int,
+rating int check(rating < 6),
+brand varchar(100),
+discount float
+);
+drop table product;
+
+select * from product;
+
+INSERT INTO product VALUES(124,'headphone',450.2,'2022-01-12','2030-01-12',2,4,'BOAT',40),
+(123,'headphone',450.234,'2022-01-12','2030-01-12',1,-4,'LG',43),
+(125,'headphone',600.2656,'2022-01-12','2030-01-12',8,-1,'SONY',49),
+(127,'headphone',550.2467,'2022-01-12','2030-01-12',5,4,'JBL',30),
+(129,'headphone',950.2456,'2022-01-12','2030-01-12',9,4,'HAMMER',67);

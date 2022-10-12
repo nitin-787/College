@@ -1,0 +1,53 @@
+CREATE TABLE Students (
+Student_RegId INTEGER PRIMARY KEY,
+Student_name VARCHAR(100),
+Student_section VARCHAR(100),
+Student_Age INTEGER,
+Student_CGPA FLOAT,
+Student_City VARCHAR(100)
+);
+
+CREATE TABLE HostelDetail (
+Hostel_id INTEGER PRIMARY KEY,
+Hostel_name VARCHAR(100),
+Hostel_block VARCHAR(100),
+Room_no INTEGER,
+Reg_id INTEGER FOREIGN KEY REFERENCES Students(Student_RegId)
+);
+
+INSERT INTO Students
+( Student_RegId, Student_name, Student_section, Student_Age, Student_CGPA, Student_City )
+VALUES
+(120, 'Tushar Sharma', 'JK201', 18, 8.07, 'New Delhi' ),
+(121, 'Akriti Singh', 'CSE201', 19, 9.01, 'Shimla'),
+(122, 'Muskan Thakur', 'JK202' , 19, 7.35, 'Lucknow'),
+(123, 'Ritish Singh', 'CSE201', 20, 6.87, 'Bangalore'),
+(124, 'Omkar Agrwal', 'ECE101', 17, 5.10, 'Mangalore'),
+(125, 'Shivam Ahuja', 'CSE104', 25, 7.10, 'Kolkata'),
+(126, 'Krishna Yadav', 'ECE105', 17, 8.20, 'Hyderabad'),
+(127, 'Adnan Nwaja', 'JK101', 19, 7.35, 'Bhubaneswar'),
+(128, 'Jon Harrington ', 'JK101', 20, 6.10, 'London'),
+(129, 'Samanta Clarke', 'CSE102', 20, 8.55, 'New York'),
+(130, 'Nitin Shina', 'JK202', 19, 9.01, 'Kolkata'),
+(250, 'Ayushi Singh', 'JK202', 18, 7.23, 'Lucknow'),
+(251, 'Adtiya Panday', 'CSE101', 19, 5.23, 'Lucknow'),
+(252, 'Sarodiya Dutt', 'ECE102', 23, 6.32, 'Bhubaneswar'),
+(253, 'Anjali Sharma', 'JK202', 24, 6.01, 'New York'),
+(254, 'Tina Saroaj', 'CSE201', 19, 8.55, 'Kolkata'),
+(255, 'Abhinav Singh', 'ECE105', 21, 7.12, 'Hyderabad'),
+(260, 'Anushka Roy', 'CSE201', 21, 9.01, 'Mumbai'),
+(265, 'Vandana Singh', 'JK101', 18, 6.50, 'Bangalore'),
+(270, 'Amir Khan', 'ECE105', 19, 5.55, 'Hyderabad'),
+(300, 'Priyanka Jonas ', 'CSE201', 18, 4.21, 'Hyderabad'),
+(350, 'Shweta Yadav', 'CSE104', 22, 6.55, 'Mumbai'),
+(400, 'Farhan Khan', 'JK101', 23, 7.21, 'Mumbai'),
+(450, 'Elizabeth Winsor','CSE201', 19, 6.01, 'London');
+
+Select * from Students;
+Select * from HostelDetail;
+
+select * from Students INNER JOIN HostelDetail ON Students.Student_RegId=HostelDetail.Reg_id;
+
+SELECT S.Student_name, S.Student_section, H.Hostel_block FROM Students as S
+INNER JOIN
+HostelDetail as H ON S.Student_RegId = H.Reg_id;

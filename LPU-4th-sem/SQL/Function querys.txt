@@ -1,0 +1,43 @@
+SELECT GETDATE();
+
+SELECT DATEADD(year,3,exp) AS DATEOFEXPIRY from product;
+
+SELECT DATEADD(month,3,exp) AS DATEOFEXPIRY from product;
+
+SELECT DATEADD(day,3,exp) AS DATEOFEXPIRY from product;
+
+SELECT DATEDIFF (YEAR,'2022-05-20','2002-04-20')AS DATEDIFFER FROM PRODUCT;
+
+SELECT DATEDIFF (DAY,'2022-05-20','2002-04-20')AS DATEDIFFER FROM PRODUCT;
+
+SELECT DATEDIFF (MONTH,'2022-05-20','2002-04-20')AS DATEDIFFER FROM PRODUCT;
+
+SELECT mfg,exp , DATEDIFF (YEAR,MFG,EXP)AS productlife FROM PRODUCT;
+
+SELECT mfg,exp , DATEDIFF (month,MFG,EXP)AS productlife FROM PRODUCT;
+
+
+SELECT mfg,exp ,DATEDIFF (DAY,MFG,EXP)AS productlife FROM PRODUCT;--datediff
+
+SELECT DAY('2021-09-02')as dayofmonth;-- day
+
+SELECT MFG ,datediff(year,mfg,getdate()) AS agetillnow from PRODUCT;--get date
+
+
+SELECT MFG ,datediff(DAY,mfg,getdate()) AS agetillnow from PRODUCT;-- get date
+
+
+SELECT MFG ,datediff(month,mfg,getdate()) AS agetillnow from PRODUCT;-- get date
+
+select DATEPART(YEAR,MFG) AS yearofmanufacture from PRODUCT;--DATEPART
+
+
+--aggergate functions
+
+--avg()
+SELECT AVG(PRICE) AS AVGPRICE FROM PRODUCT;
+
+--SUM()
+SELECT SUM(QTY) AS QUANTITY FROM PRODUCT;
+
+select * from product;

@@ -1,0 +1,61 @@
+CREATE TABLE Books (
+book_id VARCHAR(10) PRIMARY KEY,
+book_name VARCHAR(100),
+book_price INTEGER,
+book_pages INTEGER,
+book_author VARCHAR(100)
+
+
+);
+
+
+INSERT INTO Books
+(book_id, book_name, book_price, book_pages, book_author)
+VALUES
+('W-101','The Last Wish', 500, 300,'Andrzej Sapkowski' ),
+('W-102','Sword of Destiny', 500, 300,'Andrzej Sapkowski' ),
+('W-103','Blood of Elves', 600, 600,'Andrzej Sapkowski' ),
+('W-104','Time of Contempt', 800, 700,'Andrzej Sapkowski' ),
+('W-105','Time of Contempt', 800, 700,'Andrzej Sapkowski' ),
+('W-106','Time of Contempt', 800, 700,'Andrzej Sapkowski' );
+
+
+
+INSERT INTO Books VALUES ('G-101','A Game of Thrones', 600, 790, 'George RR Martin');
+INSERT INTO Books VALUES ('G-102','A Clash of King ', 500, 300, 'George RR Martin');
+INSERT INTO Books VALUES ('G-104','A Storm of Swords ', 500, 700, 'George RR Martin');
+INSERT INTO Books VALUES ('G-106','A Dance of Dragons ', 600, 300, 'George RR Martin');
+
+SELECT * FROM Books;
+
+SELECT book_id, book_name FROM Books
+WHERE
+book_price >= 500;
+
+
+SELECT DISTINCT book_author FROM Books;
+
+SELECT DISTINCT book_name FROM Books;
+
+
+
+
+SELECT book_id as ID, book_name as Title, book_author as Author FROM books;
+
+
+
+SELECT book_name + ' by ' + book_author as Title_author FROM books;
+
+SELECT book_name + ' by ' + book_author as Title_author FROM books
+WHERE
+book_price > 500;
+
+SELECT book_name, book_author,book_price as Original_price, book_price - 200 as Reducded_price,book_price + 200 as increased_price, book_price/2 as half_Price, book_price*4 as Four_times_price FROM books ;
+
+
+
+SELECT book_name + ' @ ' + convert(varchar, book_price) as Name_Price FROM books;
+
+
+SELECT * FROM books
+WHERE book_price > 500 and book_pages < 500;

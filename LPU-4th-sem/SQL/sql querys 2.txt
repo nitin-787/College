@@ -1,0 +1,10 @@
+CREATE TABLE `customer`.`customers` ( `custid` INT NOT NULL , `fname` VARCHAR(30) NOT NULL , `lname` VARCHAR(30) NOT NULL , `country` INT(20) NOT NULL , `age` INT NOT NULL , `salary` INT NOT NULL , `Rating` INT NOT NULL ) ENGINE = InnoDB;
+SELECT * FROM `customers`
+INSERT INTO `customers`(`custid`, `fname`, `lname`, `country`, `age`, `salary`, `Rating`) VALUES ('1','Ronak','kumar','Ind','43','45000','4'), ('2','Nitin','kumar','Ind','19','24000','3'), ('3','Frank','kumar','Ind','27','25000','2'), ('4','Jhon','lal','Ind','23','27000','5'), ('5','Cj','kumar','Ind','22','24000','6'), ('6','Tommy','kumar','Ind','25','43000','7'), ('8','Tony','kumar','Ind','17','18000','3'), ('9','jack','kumar','Ind','26','20000','4'), ('10','Jai','kumar','Ind','29','29000','7');
+SELECT * FROM `customers`
+ALTER TABLE `customers` ADD PRIMARY KEY(`custid`);
+SELECT `custid`, `fname`+`lname` as Name FROM `customers` WHERE 1;
+SELECT `custid`, `fname`+" "+`lname` as fullname, `age` FROM `customers` WHERE 1;
+select * from customers where country='Ind';
+Collapse Requery Edit Explain Profiling Bookmark Database : customer Queried time : 11:28:15
+select * from customers where salary<500000 and age<25;
