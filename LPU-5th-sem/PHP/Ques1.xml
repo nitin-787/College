@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library_management>
+    <person1>
+        <firstName>Nitin</firstName>
+        <lastName>Sharma</lastName>
+        <Department>CSE</Department>
+        <Date_of_passing>23/5/2020</Date_of_passing>
+        <Date_of_joining>2/8/2021</Date_of_joining>
+        <Date_of_birth>29/1/2003</Date_of_birth>
+        <Mobile_no>463534343</Mobile_no>
+        <Book_id>42</Book_id>
+        <Book_issue_date>13/7/2021</Book_issue_date>
+        <Book_return_date>29/6/2022</Book_return_date>
+        <TotalFine>25</TotalFine>
+    </person1>
+    <person2>
+        <firstName>Monkey</firstName>
+        <lastName>D. luffy</lastName>
+        <Department>ECE</Department>
+        <Date_of_passing>23/5/2020</Date_of_passing>
+        <Date_of_joining>2/8/2021</Date_of_joining>
+        <Date_of_birth>29/1/2003</Date_of_birth>
+        <Mobile_no>463534343</Mobile_no>
+        <Book_id>42</Book_id>
+        <Book_issue_date>13/7/2021</Book_issue_date>
+        <Book_return_date>29/6/2022</Book_return_date>
+        <TotalFine>25</TotalFine>
+    </person2>
+    <person3>
+        <firstName>Roronoa</firstName>
+        <lastName>zoro</lastName>
+        <Department>CSE</Department>
+        <Date_of_passing>23/5/2020</Date_of_passing>
+        <Date_of_joining>2/8/2021</Date_of_joining>
+        <Date_of_birth>29/1/2003</Date_of_birth>
+        <Mobile_no>463534343</Mobile_no>
+        <Book_id>42</Book_id>
+        <Book_issue_date>13/7/2021</Book_issue_date>
+        <Book_return_date>29/6/2022</Book_return_date>
+        <TotalFine>25</TotalFine>
+    </person3>
+</library_management>
