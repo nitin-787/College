@@ -1,0 +1,5 @@
+and then i want to use this data to create a graph
+i have a table with 3 columns   
+1) date
+2) value
+3) value2
