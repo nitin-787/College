@@ -1,5 +1,4 @@
 #include <iostream>
-
 using namespace std;
 
 class Fibo {
@@ -25,3 +24,4 @@ int main() {
 
     return 0;
 }
+
