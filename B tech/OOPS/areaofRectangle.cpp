@@ -17,7 +17,7 @@ class Rectangle1 {
         }
 };
 
-// without using parameter 
+// without using parameter, default constructor
 class Rectangle {
     int l, w;
     public:
@@ -38,7 +38,7 @@ int main () {
     Rectangle r1;
     r1.show_data();
 
-    Rectangle1 r2(10, 20);
-    r2.show_data();
+    // Rectangle1 r2(10, 20);
+    // r2.show_data();
     return 0;
 }
