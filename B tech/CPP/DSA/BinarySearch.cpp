@@ -3,7 +3,7 @@ using namespace std;
 
 class BinarySearch {
 public:
-    int binarySearch(int arr[], int target, int size) {
+    static int binarySearch(int arr[], int target, int size) {
         int start = 0, end = size - 1;
 
         while (start <= end) {
@@ -26,6 +26,6 @@ int main() {
     int size = sizeof(arr) / sizeof(arr[0]);
     int target = 19;
     BinarySearch bs;
-    cout << bs.binarySearch(arr, target, size);
+    cout << BinarySearch::binarySearch(arr, target, size);
     return 0;
 }

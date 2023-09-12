@@ -1,0 +1,4 @@
+G:/College/B tech/CPP/cmake-build-debug/CMakeFiles/CPP.dir
+G:/College/B tech/CPP/cmake-build-debug/CMakeFiles/bubbleSort.dir
+G:/College/B tech/CPP/cmake-build-debug/CMakeFiles/edit_cache.dir
+G:/College/B tech/CPP/cmake-build-debug/CMakeFiles/rebuild_cache.dir

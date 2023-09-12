@@ -1,0 +1,18 @@
+# ninja log v5
+13	596	7162453005290147	CMakeFiles/CPP.dir/DSA/quickSort.cpp.obj	110369e55ebf50f9
+20	594	7162453005290147	CMakeFiles/CPP.dir/DSA/linear.cpp.obj	8d39a3096cebdd0
+32	594	7162453005280151	CMakeFiles/CPP.dir/OOPS/fibonnaci.cpp.obj	8879a48cbdb7a1af
+1	531	7162453004489784	CMakeFiles/CPP.dir/DSA/BinarySearch.cpp.obj	e462f95011202f2f
+64	596	7162453005335513	CMakeFiles/CPP.dir/OOPS/Student.cpp.obj	a8a7a0323746e7fd
+8	531	7162453004522952	CMakeFiles/CPP.dir/DSA/bubbleSort.cpp.obj	1937245e6837da6f
+16	530	7162453004533079	CMakeFiles/CPP.dir/DSA/marks.cpp.obj	7ca6a5e7cfe9c551
+5	595	7162453005280151	CMakeFiles/CPP.dir/DSA/insertionDeletion.cpp.obj	95b5107bfd2ba382
+24	530	7162453004499785	CMakeFiles/CPP.dir/OOPS/areaofCircle.cpp.obj	2a065b1ee54e605d
+55	589	7162453005260133	CMakeFiles/CPP.dir/OOPS/static.cpp.obj	132d3257a8fe01f2
+43	596	7162453005304410	CMakeFiles/CPP.dir/OOPS/dynamicMemoryAlloc.cpp.obj	6b852c990bb81a49
+28	590	7162453005260133	CMakeFiles/CPP.dir/OOPS/ComplexNumberAddtion.cpp.obj	c5c44d6b64a5dc67
+1	106	7162452332865058	CPP.exe	74179a22b42c183e
+47	595	7162453005290147	CMakeFiles/CPP.dir/OOPS/swaping.cpp.obj	b85e661201d65bd1
+36	593	7162453005280151	CMakeFiles/CPP.dir/OOPS/areaofRectangle.cpp.obj	d4dbf2a6409318a8
+59	527	7162451012822427	CMakeFiles/CPP.dir/DSA/name.cpp.obj	cfa697e0548709df
+0	132	7162460081238178	build.ninja	4d15ee0a8ab55025
