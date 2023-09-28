@@ -1,4 +1,9 @@
-G:/College/B tech/CPP/cmake-build-debug/CMakeFiles/CPP.dir
+G:/College/B tech/CPP/cmake-build-debug/CMakeFiles/BinarySearch.dir
 G:/College/B tech/CPP/cmake-build-debug/CMakeFiles/bubbleSort.dir
+G:/College/B tech/CPP/cmake-build-debug/CMakeFiles/linear.dir
+G:/College/B tech/CPP/cmake-build-debug/CMakeFiles/fibonnaci.dir
+G:/College/B tech/CPP/cmake-build-debug/CMakeFiles/static.dir
+G:/College/B tech/CPP/cmake-build-debug/CMakeFiles/areaofCircle.dir
+G:/College/B tech/CPP/cmake-build-debug/CMakeFiles/swaping.dir
 G:/College/B tech/CPP/cmake-build-debug/CMakeFiles/edit_cache.dir
 G:/College/B tech/CPP/cmake-build-debug/CMakeFiles/rebuild_cache.dir

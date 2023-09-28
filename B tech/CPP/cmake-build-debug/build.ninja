@@ -41,115 +41,37 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = G$:/College/B$ tech/CPP/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target CPP
+# Object build statements for EXECUTABLE target BinarySearch
 
 
 #############################################
-# Order-only phony target for CPP
+# Order-only phony target for BinarySearch
 
-build cmake_object_order_depends_target_CPP: phony || CMakeFiles/CPP.dir
+build cmake_object_order_depends_target_BinarySearch: phony || CMakeFiles/BinarySearch.dir
 
-build CMakeFiles/CPP.dir/DSA/BinarySearch.cpp.obj: CXX_COMPILER__CPP_unscanned_Debug G$:/College/B$ tech/CPP/DSA/BinarySearch.cpp || cmake_object_order_depends_target_CPP
-  DEP_FILE = CMakeFiles\CPP.dir\DSA\BinarySearch.cpp.obj.d
+build CMakeFiles/BinarySearch.dir/DSA/BinarySearch.cpp.obj: CXX_COMPILER__BinarySearch_unscanned_Debug G$:/College/B$ tech/CPP/DSA/BinarySearch.cpp || cmake_object_order_depends_target_BinarySearch
+  DEP_FILE = CMakeFiles\BinarySearch.dir\DSA\BinarySearch.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\CPP.dir
-  OBJECT_FILE_DIR = CMakeFiles\CPP.dir\DSA
-
-build CMakeFiles/CPP.dir/DSA/bubbleSort.cpp.obj: CXX_COMPILER__CPP_unscanned_Debug G$:/College/B$ tech/CPP/DSA/bubbleSort.cpp || cmake_object_order_depends_target_CPP
-  DEP_FILE = CMakeFiles\CPP.dir\DSA\bubbleSort.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\CPP.dir
-  OBJECT_FILE_DIR = CMakeFiles\CPP.dir\DSA
-
-build CMakeFiles/CPP.dir/DSA/insertionDeletion.cpp.obj: CXX_COMPILER__CPP_unscanned_Debug G$:/College/B$ tech/CPP/DSA/insertionDeletion.cpp || cmake_object_order_depends_target_CPP
-  DEP_FILE = CMakeFiles\CPP.dir\DSA\insertionDeletion.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\CPP.dir
-  OBJECT_FILE_DIR = CMakeFiles\CPP.dir\DSA
-
-build CMakeFiles/CPP.dir/DSA/linear.cpp.obj: CXX_COMPILER__CPP_unscanned_Debug G$:/College/B$ tech/CPP/DSA/linear.cpp || cmake_object_order_depends_target_CPP
-  DEP_FILE = CMakeFiles\CPP.dir\DSA\linear.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\CPP.dir
-  OBJECT_FILE_DIR = CMakeFiles\CPP.dir\DSA
-
-build CMakeFiles/CPP.dir/DSA/marks.cpp.obj: CXX_COMPILER__CPP_unscanned_Debug G$:/College/B$ tech/CPP/DSA/marks.cpp || cmake_object_order_depends_target_CPP
-  DEP_FILE = CMakeFiles\CPP.dir\DSA\marks.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\CPP.dir
-  OBJECT_FILE_DIR = CMakeFiles\CPP.dir\DSA
-
-build CMakeFiles/CPP.dir/DSA/quickSort.cpp.obj: CXX_COMPILER__CPP_unscanned_Debug G$:/College/B$ tech/CPP/DSA/quickSort.cpp || cmake_object_order_depends_target_CPP
-  DEP_FILE = CMakeFiles\CPP.dir\DSA\quickSort.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\CPP.dir
-  OBJECT_FILE_DIR = CMakeFiles\CPP.dir\DSA
-
-build CMakeFiles/CPP.dir/OOPS/areaofCircle.cpp.obj: CXX_COMPILER__CPP_unscanned_Debug G$:/College/B$ tech/CPP/OOPS/areaofCircle.cpp || cmake_object_order_depends_target_CPP
-  DEP_FILE = CMakeFiles\CPP.dir\OOPS\areaofCircle.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\CPP.dir
-  OBJECT_FILE_DIR = CMakeFiles\CPP.dir\OOPS
-
-build CMakeFiles/CPP.dir/OOPS/areaofRectangle.cpp.obj: CXX_COMPILER__CPP_unscanned_Debug G$:/College/B$ tech/CPP/OOPS/areaofRectangle.cpp || cmake_object_order_depends_target_CPP
-  DEP_FILE = CMakeFiles\CPP.dir\OOPS\areaofRectangle.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\CPP.dir
-  OBJECT_FILE_DIR = CMakeFiles\CPP.dir\OOPS
-
-build CMakeFiles/CPP.dir/OOPS/ComplexNumberAddtion.cpp.obj: CXX_COMPILER__CPP_unscanned_Debug G$:/College/B$ tech/CPP/OOPS/ComplexNumberAddtion.cpp || cmake_object_order_depends_target_CPP
-  DEP_FILE = CMakeFiles\CPP.dir\OOPS\ComplexNumberAddtion.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\CPP.dir
-  OBJECT_FILE_DIR = CMakeFiles\CPP.dir\OOPS
-
-build CMakeFiles/CPP.dir/OOPS/dynamicMemoryAlloc.cpp.obj: CXX_COMPILER__CPP_unscanned_Debug G$:/College/B$ tech/CPP/OOPS/dynamicMemoryAlloc.cpp || cmake_object_order_depends_target_CPP
-  DEP_FILE = CMakeFiles\CPP.dir\OOPS\dynamicMemoryAlloc.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\CPP.dir
-  OBJECT_FILE_DIR = CMakeFiles\CPP.dir\OOPS
-
-build CMakeFiles/CPP.dir/OOPS/fibonnaci.cpp.obj: CXX_COMPILER__CPP_unscanned_Debug G$:/College/B$ tech/CPP/OOPS/fibonnaci.cpp || cmake_object_order_depends_target_CPP
-  DEP_FILE = CMakeFiles\CPP.dir\OOPS\fibonnaci.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\CPP.dir
-  OBJECT_FILE_DIR = CMakeFiles\CPP.dir\OOPS
-
-build CMakeFiles/CPP.dir/OOPS/static.cpp.obj: CXX_COMPILER__CPP_unscanned_Debug G$:/College/B$ tech/CPP/OOPS/static.cpp || cmake_object_order_depends_target_CPP
-  DEP_FILE = CMakeFiles\CPP.dir\OOPS\static.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\CPP.dir
-  OBJECT_FILE_DIR = CMakeFiles\CPP.dir\OOPS
-
-build CMakeFiles/CPP.dir/OOPS/Student.cpp.obj: CXX_COMPILER__CPP_unscanned_Debug G$:/College/B$ tech/CPP/OOPS/Student.cpp || cmake_object_order_depends_target_CPP
-  DEP_FILE = CMakeFiles\CPP.dir\OOPS\Student.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\CPP.dir
-  OBJECT_FILE_DIR = CMakeFiles\CPP.dir\OOPS
-
-build CMakeFiles/CPP.dir/OOPS/swaping.cpp.obj: CXX_COMPILER__CPP_unscanned_Debug G$:/College/B$ tech/CPP/OOPS/swaping.cpp || cmake_object_order_depends_target_CPP
-  DEP_FILE = CMakeFiles\CPP.dir\OOPS\swaping.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\CPP.dir
-  OBJECT_FILE_DIR = CMakeFiles\CPP.dir\OOPS
+  OBJECT_DIR = CMakeFiles\BinarySearch.dir
+  OBJECT_FILE_DIR = CMakeFiles\BinarySearch.dir\DSA
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target CPP
+# Link build statements for EXECUTABLE target BinarySearch
 
 
 #############################################
-# Link the executable CPP.exe
+# Link the executable BinarySearch.exe
 
-build CPP.exe: CXX_EXECUTABLE_LINKER__CPP_Debug CMakeFiles/CPP.dir/DSA/BinarySearch.cpp.obj CMakeFiles/CPP.dir/DSA/bubbleSort.cpp.obj CMakeFiles/CPP.dir/DSA/insertionDeletion.cpp.obj CMakeFiles/CPP.dir/DSA/linear.cpp.obj CMakeFiles/CPP.dir/DSA/marks.cpp.obj CMakeFiles/CPP.dir/DSA/quickSort.cpp.obj CMakeFiles/CPP.dir/OOPS/areaofCircle.cpp.obj CMakeFiles/CPP.dir/OOPS/areaofRectangle.cpp.obj CMakeFiles/CPP.dir/OOPS/ComplexNumberAddtion.cpp.obj CMakeFiles/CPP.dir/OOPS/dynamicMemoryAlloc.cpp.obj CMakeFiles/CPP.dir/OOPS/fibonnaci.cpp.obj CMakeFiles/CPP.dir/OOPS/static.cpp.obj CMakeFiles/CPP.dir/OOPS/Student.cpp.obj CMakeFiles/CPP.dir/OOPS/swaping.cpp.obj
+build BinarySearch.exe: CXX_EXECUTABLE_LINKER__BinarySearch_Debug CMakeFiles/BinarySearch.dir/DSA/BinarySearch.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\CPP.dir
+  OBJECT_DIR = CMakeFiles\BinarySearch.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = CPP.exe
-  TARGET_IMPLIB = libCPP.dll.a
-  TARGET_PDB = CPP.exe.dbg
+  TARGET_FILE = BinarySearch.exe
+  TARGET_IMPLIB = libBinarySearch.dll.a
+  TARGET_PDB = BinarySearch.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target bubbleSort
@@ -184,6 +106,177 @@ build bubbleSort.exe: CXX_EXECUTABLE_LINKER__bubbleSort_Debug CMakeFiles/bubbleS
   TARGET_IMPLIB = libbubbleSort.dll.a
   TARGET_PDB = bubbleSort.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target linear
+
+
+#############################################
+# Order-only phony target for linear
+
+build cmake_object_order_depends_target_linear: phony || CMakeFiles/linear.dir
+
+build CMakeFiles/linear.dir/DSA/linear.cpp.obj: CXX_COMPILER__linear_unscanned_Debug G$:/College/B$ tech/CPP/DSA/linear.cpp || cmake_object_order_depends_target_linear
+  DEP_FILE = CMakeFiles\linear.dir\DSA\linear.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\linear.dir
+  OBJECT_FILE_DIR = CMakeFiles\linear.dir\DSA
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target linear
+
+
+#############################################
+# Link the executable linear.exe
+
+build linear.exe: CXX_EXECUTABLE_LINKER__linear_Debug CMakeFiles/linear.dir/DSA/linear.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\linear.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = linear.exe
+  TARGET_IMPLIB = liblinear.dll.a
+  TARGET_PDB = linear.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target fibonnaci
+
+
+#############################################
+# Order-only phony target for fibonnaci
+
+build cmake_object_order_depends_target_fibonnaci: phony || CMakeFiles/fibonnaci.dir
+
+build CMakeFiles/fibonnaci.dir/OOPS/fibonnaci.cpp.obj: CXX_COMPILER__fibonnaci_unscanned_Debug G$:/College/B$ tech/CPP/OOPS/fibonnaci.cpp || cmake_object_order_depends_target_fibonnaci
+  DEP_FILE = CMakeFiles\fibonnaci.dir\OOPS\fibonnaci.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\fibonnaci.dir
+  OBJECT_FILE_DIR = CMakeFiles\fibonnaci.dir\OOPS
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target fibonnaci
+
+
+#############################################
+# Link the executable fibonnaci.exe
+
+build fibonnaci.exe: CXX_EXECUTABLE_LINKER__fibonnaci_Debug CMakeFiles/fibonnaci.dir/OOPS/fibonnaci.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\fibonnaci.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = fibonnaci.exe
+  TARGET_IMPLIB = libfibonnaci.dll.a
+  TARGET_PDB = fibonnaci.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target static
+
+
+#############################################
+# Order-only phony target for static
+
+build cmake_object_order_depends_target_static: phony || CMakeFiles/static.dir
+
+build CMakeFiles/static.dir/OOPS/static.cpp.obj: CXX_COMPILER__static_unscanned_Debug G$:/College/B$ tech/CPP/OOPS/static.cpp || cmake_object_order_depends_target_static
+  DEP_FILE = CMakeFiles\static.dir\OOPS\static.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\static.dir
+  OBJECT_FILE_DIR = CMakeFiles\static.dir\OOPS
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target static
+
+
+#############################################
+# Link the executable static.exe
+
+build static.exe: CXX_EXECUTABLE_LINKER__static_Debug CMakeFiles/static.dir/OOPS/static.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\static.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = static.exe
+  TARGET_IMPLIB = libstatic.dll.a
+  TARGET_PDB = static.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target areaofCircle
+
+
+#############################################
+# Order-only phony target for areaofCircle
+
+build cmake_object_order_depends_target_areaofCircle: phony || CMakeFiles/areaofCircle.dir
+
+build CMakeFiles/areaofCircle.dir/OOPS/areaofCircle.cpp.obj: CXX_COMPILER__areaofCircle_unscanned_Debug G$:/College/B$ tech/CPP/OOPS/areaofCircle.cpp || cmake_object_order_depends_target_areaofCircle
+  DEP_FILE = CMakeFiles\areaofCircle.dir\OOPS\areaofCircle.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\areaofCircle.dir
+  OBJECT_FILE_DIR = CMakeFiles\areaofCircle.dir\OOPS
+
+build CMakeFiles/areaofCircle.dir/OOPS/Person.cpp.obj: CXX_COMPILER__areaofCircle_unscanned_Debug G$:/College/B$ tech/CPP/OOPS/Person.cpp || cmake_object_order_depends_target_areaofCircle
+  DEP_FILE = CMakeFiles\areaofCircle.dir\OOPS\Person.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\areaofCircle.dir
+  OBJECT_FILE_DIR = CMakeFiles\areaofCircle.dir\OOPS
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target areaofCircle
+
+
+#############################################
+# Link the executable areaofCircle.exe
+
+build areaofCircle.exe: CXX_EXECUTABLE_LINKER__areaofCircle_Debug CMakeFiles/areaofCircle.dir/OOPS/areaofCircle.cpp.obj CMakeFiles/areaofCircle.dir/OOPS/Person.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\areaofCircle.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = areaofCircle.exe
+  TARGET_IMPLIB = libareaofCircle.dll.a
+  TARGET_PDB = areaofCircle.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target swaping
+
+
+#############################################
+# Order-only phony target for swaping
+
+build cmake_object_order_depends_target_swaping: phony || CMakeFiles/swaping.dir
+
+build CMakeFiles/swaping.dir/OOPS/swaping.cpp.obj: CXX_COMPILER__swaping_unscanned_Debug G$:/College/B$ tech/CPP/OOPS/swaping.cpp || cmake_object_order_depends_target_swaping
+  DEP_FILE = CMakeFiles\swaping.dir\OOPS\swaping.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\swaping.dir
+  OBJECT_FILE_DIR = CMakeFiles\swaping.dir\OOPS
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target swaping
+
+
+#############################################
+# Link the executable swaping.exe
+
+build swaping.exe: CXX_EXECUTABLE_LINKER__swaping_Debug CMakeFiles/swaping.dir/OOPS/swaping.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\swaping.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = swaping.exe
+  TARGET_IMPLIB = libswaping.dll.a
+  TARGET_PDB = swaping.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -210,9 +303,19 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build CPP: phony CPP.exe
+build BinarySearch: phony BinarySearch.exe
+
+build areaofCircle: phony areaofCircle.exe
 
 build bubbleSort: phony bubbleSort.exe
+
+build fibonnaci: phony fibonnaci.exe
+
+build linear: phony linear.exe
+
+build static: phony static.exe
+
+build swaping: phony swaping.exe
 
 # =============================================================================
 # Folder targets.
@@ -222,7 +325,7 @@ build bubbleSort: phony bubbleSort.exe
 #############################################
 # Folder: G:/College/B tech/CPP/cmake-build-debug
 
-build all: phony CPP.exe bubbleSort.exe
+build all: phony BinarySearch.exe bubbleSort.exe linear.exe fibonnaci.exe static.exe areaofCircle.exe swaping.exe
 
 # =============================================================================
 # Built-in targets
