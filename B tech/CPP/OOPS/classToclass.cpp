@@ -24,7 +24,7 @@ public:
     minutes() {
         min = 0;
     }
-    void operator=(time t) {
+    void operator=(class time t) {
         min = t.getm();
     }
     void show() {

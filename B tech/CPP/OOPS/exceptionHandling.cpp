@@ -3,21 +3,21 @@
 #include <iostream>
 using namespace std;
 
-int main() {
-    int a, b;
-    float c;
+int main () {
+    float a, b;
     cout << "Enter two numbers: ";
     cin >> a >> b;
+
     try {
         if (b != 0) {
-            c = a / b;
-            cout << "Division = " << c << endl;
+            float c = a / b;
+            cout << "Ans: " << c <<endl;
         } else {
             throw(b);
         }
     }
     catch (int e) {
-        cout << "Division by zero" << endl;
+        cout << "Divide by zero" << endl;
     }
     return 0;
 }

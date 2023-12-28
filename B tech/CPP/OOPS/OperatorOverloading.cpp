@@ -1,29 +1,31 @@
 #include <iostream>
 
-// operator overloading, increament / decrement operator
+using namespace std;
 
-class OperatorOverloading {
+class Op {
     private:
-        int x;
+        int value;
+
     public:
-        OperatorOverloading(int x) {
-            this->x = x;
-        }
-        void operator ++ () {
-            ++x;
-        }
-        void operator -- () {
-            --x;
-        }
-        void display() {
-            std::cout << "x: " << x << std::endl;
-        }
-};
+        Op(): value(7) {}
+
+    void operator ++ () {
+        value++;
+    }
+
+    void operator -- () {
+        value--;
+    }
+
+    void display() {
+        cout << value << endl;
+    }
+}; 
 
 int main () {
-    OperatorOverloading o(10);
-    // ++o;
-    // o.display();
+    Op o;
+    ++o;
+    o.display();
     --o;
     o.display();
     return 0;
