@@ -1,4 +1,4 @@
-## Here I will add my programs that they (collage) taught me in Diploma / B tech and also I'll and some useful resources that I used during college days.
+## Here I will add my programs that they (college) taught me in Diploma / B tech and also I'll and some useful resources that I used during college days.
 
 ### Programming books
 #### Handbook written by Flavio Cops : [LINK](https://github.com/nitin-787/Diploma_Sem-5/blob/main/PHP/php-handbook.pdf)
