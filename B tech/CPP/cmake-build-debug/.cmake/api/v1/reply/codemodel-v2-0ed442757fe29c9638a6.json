@@ -1,0 +1,114 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "CPP",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "BinarySearch::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BinarySearch-Debug-4066661eff9e9ed43598.json",
+					"name" : "BinarySearch",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "areaofCircle::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-areaofCircle-Debug-834a37382de5fd1e116d.json",
+					"name" : "areaofCircle",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bubbleSort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bubbleSort-Debug-c609ce36e8a6fed244ee.json",
+					"name" : "bubbleSort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fibonnaci::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fibonnaci-Debug-c9596456de4e96a4c6b6.json",
+					"name" : "fibonnaci",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "linear::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-linear-Debug-8826a0207a64b0248b1a.json",
+					"name" : "linear",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-static-Debug-1fbd70c147b8aadccdb9.json",
+					"name" : "static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "swaping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-swaping-Debug-5aff9e3c5be1d52e844a.json",
+					"name" : "swaping",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "F:/College/B tech/CPP/cmake-build-debug",
+		"source" : "F:/College/B tech/CPP"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}
